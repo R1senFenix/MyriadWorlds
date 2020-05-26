@@ -1,0 +1,33 @@
+.galaxy-select {
+  display: inline-block;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.broke {
+  border: 2px, solid, black;
+
+  width: 100%;
+  padding-top: 100%;
+}
+.button-text {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 125%;
+  font-weight: 600;
+  color: ghostwhite;
+  text-shadow: rebeccapurple;
+}
+
+.galaxy-button {
+  border-radius: 25px;
+  background-image: url(./images/sun-flare.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25%;
+  padding-top: 25%; /* 1:1 Aspect Ratio */
+  position: relative; /* If you want text inside of it */
+}

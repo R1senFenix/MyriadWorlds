@@ -1,6 +1,7 @@
 body {
-  width: 80%;
-  margin: auto;
+  max-width: 85vw;
+  min-height: 100vh;
+  margin: 0 auto;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
   vertical-align: middle;
   display: inline-block;
   border: 2px solid grey;
-  margin: 0px;
+  margin: 0 auto;
 }
 #logo {
   float: left;
@@ -20,7 +21,7 @@ header {
 .container {
   border: 2px dashed seagreen;
   padding: 2%;
-  margin: 1%;
+  margin: 1% auto;
 }
 .intro {
   margin: auto;
@@ -28,4 +29,8 @@ header {
 footer {
   width: 100vw;
   border: 2px solid grey;
+}
+
+.bolded {
+  font-weight: bold;
 }

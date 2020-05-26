@@ -1,10 +1,11 @@
 import React from "react";
+import "./galaxybutton.css";
 
 
 const galaxyList = [
     {
         buttontitle: "Create Worlds",
-        hoverText: "Dare to create wrlds with every dream unbound."
+        hoverText: "Dare to create worlds with every dream unbound."
     },
     {
         buttontitle: "Play Worlds",
@@ -20,16 +21,19 @@ const galaxyList = [
 ]
 
 
-
 function GalaxyButton(props) {
     const galaxyMap = galaxyList.map((galaxyList) => {
         return (
-            <button className="galaxy-button" onMouseEnter={galaxyList.hoverText}>{galaxyList.buttontitle}</button>
+            <span className="hover-text" title={galaxyList.hoverText}>
+                <div className="galaxy-button ">
+                    <div className="button-text">{galaxyList.buttontitle}</div>
+                </div>
+            </span>
         )
     }
     )
 
-    return (<div>
+    return (<div className="galaxy-select">
         {galaxyMap}
     </div>)
 }

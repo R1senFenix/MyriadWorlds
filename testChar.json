@@ -1,0 +1,162 @@
+{
+    "name": "Vicros Faleth",
+    "background": "Outlander",
+    "Classes": {
+        "primaryclass": {
+            "classname": "Ranger",
+            "classlevel": 19
+        },
+        "secondaryclass": {
+            "classname": "Rouge",
+            "classlevel": 1
+        }
+    },
+    "race": "Elf",
+    "subrace": "Wood-Elf",
+    "total-level": "20",
+    "experience": 43915,
+    "hitPoints": {
+        "max": 96,
+        "current": 96,
+        "temporary": 0
+    },
+    "hitdice": {
+        "D4": 0,
+        "D6": 0,
+        "D8": 1,
+        "D10": 19,
+        "D12": 0
+    },
+    "traits": {
+        "strength": {
+            "name": "Strength",
+            "base": 10,
+            "proficiency": true,
+            "skills": {
+                "athletics": {
+                    "name": "Athletics",
+                    "proficiency": true
+                }
+            }
+        },
+        "dexterity": {
+            "name": "Strength",
+            "base": 20,
+            "proficiency": true,
+            "skills": {
+                "acrobatics": {
+                    "name": "Acrobatics",
+                    "proficiency": true,
+                    "expertise": false
+                },
+                "sleightofHand": {
+                    "name": "Sleight of Hand",
+                    "proficiency": false,
+                    "expertise": false
+                },
+                "stealth": {
+                    "name": "Stealth",
+                    "proficiency": true,
+                    "expertise": false
+                }
+            }
+        },
+        "constitution": {
+            "name": "Constitution",
+            "base": 14,
+            "proficiency": false,
+            "skills": {}
+        },
+        "intelligence ": {
+            "name": "Intelligence",
+            "base": 10,
+            "proficiency": false,
+            "skills": {
+                "arcana": {
+                    "name": "Arcana",
+                    "proficiency": false,
+                    "expertise": false
+                },
+                "history": {
+                    "name": "history",
+                    "proficiency": false,
+                    "expertise": false
+                },
+                "investigation": {
+                    "name": "Investigation",
+                    "proficiency": true,
+                    "expertise": true
+                },
+                "nature": {
+                    "name": "Nature",
+                    "proficiency": true,
+                    "expertise": false
+                },
+                "religion": {
+                    "name": "Religion",
+                    "proficiency": false,
+                    "expertise": false
+                }
+            }
+        },
+        "wisdom": {
+            "name": "Wisdom",
+            "base": 16,
+            "proficiency": false,
+            "skills": {
+                "animalHandling": {
+                    "name": "Animal Handling",
+                    "proficiency": false,
+                    "expertise": false
+                },
+                "insight": {
+                    "name": "Insight",
+                    "proficiency": true,
+                    "expertise": false
+                },
+                "medicine": {
+                    "name": "Medicine",
+                    "proficiency": false,
+                    "expertise": false
+                },
+                "perception": {
+                    "name": "Perception",
+                    "proficiency": true,
+                    "expertise": true
+                },
+                "survival": {
+                    "name": "Survival",
+                    "proficiency": true,
+                    "expertise": false
+                }
+            }
+        },
+        "charisma": {
+            "name": "Charisma",
+            "base": 8,
+            "proficiency": true,
+            "skills": {
+                "arcana": {
+                    "name": "Arcana",
+                    "proficiency": false,
+                    "expertise": false
+                },
+                "history": {
+                    "name": "history",
+                    "proficiency": false,
+                    "expertise": false
+                },
+                "investigation": {
+                    "name": "Investigation",
+                    "proficiency": false,
+                    "expertise": false
+                },
+                "religion": {
+                    "name": "Religion",
+                    "proficiency": false,
+                    "expertise": false
+                }
+            }
+        }
+    }
+}
