@@ -1,15 +1,12 @@
 .galaxy-select {
-  display: inline-block;
+  column-count: 3;
+  display: block;
   width: 85%;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.broke {
-  border: 2px, solid, black;
-
-  width: 100%;
-  padding-top: 100%;
-}
 .button-text {
   position: absolute;
   top: 40%;
@@ -23,11 +20,17 @@
 }
 
 .galaxy-button {
+  position: relative;
+  width: 100%;
   border-radius: 25px;
+
   background-image: url(./images/sun-flare.webp);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 25%;
-  padding-top: 25%; /* 1:1 Aspect Ratio */
-  position: relative; /* If you want text inside of it */
+}
+
+.galaxy-button::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }

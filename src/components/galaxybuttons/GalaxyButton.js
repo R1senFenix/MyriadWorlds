@@ -23,17 +23,19 @@ const galaxyList = [
 
 function GalaxyButton(props) {
     const galaxyMap = galaxyList.map((galaxyList) => {
-        return (
+        return (<div>
             <span className="hover-text" title={galaxyList.hoverText}>
                 <div className="galaxy-button ">
                     <div className="button-text">{galaxyList.buttontitle}</div>
                 </div>
-            </span>
+            </span><br />
+        </div>
         )
     }
     )
 
-    return (<div className="galaxy-select">
+    return (<div className="galaxy-select flex-container">
+
         {galaxyMap}
     </div>)
 }

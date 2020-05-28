@@ -1,16 +1,14 @@
 body {
-  max-width: 85vw;
-  min-height: 100vh;
-  margin: 0 auto;
+  margin: auto;
 }
 
 header {
-  width: 100vw;
-  padding: 2px;
+  width: 98.5%;
+  padding: 0.5%;
   vertical-align: middle;
   display: inline-block;
   border: 2px solid grey;
-  margin: 0 auto;
+  margin: auto;
 }
 #logo {
   float: left;
@@ -19,15 +17,17 @@ header {
   float: right;
 }
 .container {
+  width: 90%;
   border: 2px dashed seagreen;
   padding: 2%;
-  margin: 1% auto;
+  margin: auto;
 }
 .intro {
   margin: auto;
 }
 footer {
-  width: 100vw;
+  width: 98.5%;
+  margin: auto;
   border: 2px solid grey;
 }
 
