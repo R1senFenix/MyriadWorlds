@@ -1,26 +1,40 @@
 body {
   margin: auto;
+  background-image: url("../images/grey-rugged.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {
+  display: inline-flex;
   width: 98.5%;
   padding: 0.5%;
   vertical-align: middle;
   display: inline-block;
   border: 2px solid grey;
   margin: auto;
+  background-image: url("../images/starry-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+/*
 #logo {
   float: left;
 }
 .signIn {
   float: right;
-}
+}*/
 .container {
   width: 90%;
-  border: 2px dashed seagreen;
+  border: 2px solid brown;
   padding: 2%;
   margin: auto;
+}
+
+.text-container {
+  background-image: url("../images/light-grey-rugged.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .intro {
   margin: auto;
@@ -29,6 +43,7 @@ footer {
   width: 98.5%;
   margin: auto;
   border: 2px solid grey;
+  background-color: slateblue;
 }
 
 .bolded {

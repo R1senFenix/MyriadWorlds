@@ -2,7 +2,7 @@ import React from "react";
 
 function Statement() {
     return (<div>
-        <div class="container">
+        <div className="container text-container">
             <h1>Myriad Worlds Home</h1>
 
             <p class="intro">
