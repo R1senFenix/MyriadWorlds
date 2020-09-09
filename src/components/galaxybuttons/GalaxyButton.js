@@ -1,5 +1,7 @@
 import React from "react";
 import "./galaxybutton.css";
+import { NavLink } from "react-router-dom";
+
 
 
 const galaxyList = [
@@ -21,22 +23,16 @@ const galaxyList = [
     }
 ]
 
-function viewGalaxy() {
-
-}
-
 function GalaxyButton(props) {
     const galaxyMap = galaxyList.map((galaxyList) => {
         return (<div>
-            <span className="hover-text" title={galaxyList.hoverText}>
-                <div className="galaxy-button "
-                    onClick={(event) => {
-                        viewGalaxy()
-                    }
-                    }>
-                    <div className="button-text">{galaxyList.buttontitle}</div>
-                </div>
-            </span><br />
+            <NavLink to={galaxyList.path}>
+                <span className="hover-text" title={galaxyList.hoverText}>
+                    <div className="galaxy-button ">
+                        <div className="button-text">{galaxyList.buttontitle}</div>
+                    </div>
+                </span><br />
+            </NavLink>
         </div>
         )
     }

@@ -15,11 +15,17 @@ function App() {
         <Header />
         <div className="container">
           <Switch>
-            <Route path="/">
+            <Route exact path={["/", "/index"]}>
               <Statement />
               <GalaxyButton />
             </Route>
             <Route exact path="/create-all">
+              <Test />
+            </Route>
+            <Route exact path="/play-all">
+              <Test />
+            </Route>
+            <Route exact path="/community">
               <Test />
             </Route>
           </Switch>

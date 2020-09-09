@@ -1,21 +1,20 @@
 import React from "react";
 import "./planetbutton.css";
 import planetList from "./planetList"
+import { NavLink } from "react-router-dom";
 
 
 
 function PlanetButton(props) {
     const planetMap = planetList.map((planetList) => {
         return (<div>
-            <span className="hover-text" title={planetList.hoverText}>
-                <div className="galaxy-button "
-                    onClick={(event) => {
-
-                    }
-                    }>
-                    <div className="button-text">{planetList.buttontitle}</div>
-                </div>
-            </span><br />
+            <NavLink>
+                <span className="hover-text" title={planetList.hoverText}>
+                    <div className="galaxy-button ">
+                        <div className="button-text">{planetList.buttontitle}</div>
+                    </div>
+                </span><br />
+            </NavLink>
         </div>
         )
     }

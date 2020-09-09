@@ -1,6 +1,7 @@
 import React from "react";
 import SignInForm from "./signInForm";
 import LibraryDrop from "./LibraryDrop";
+import { NavLink } from "react-router-dom";
 
 const tempName = "Jamison Stramer";
 const tierLevel = "Developer";
@@ -8,9 +9,9 @@ const tierLevel = "Developer";
 function Header() {
     return (<div>
         <header>
-            <a id="logo" href="index.html"        >
+            <NavLink to="/index">
                 <img src="./images/mylogo.jpg" height="50px" width="50px" alt="Missing" />
-            </a>
+            </NavLink>
             <div>
                 <a className="index-headlink index-user" href="profile">{tempName}</a>
                 <br />
