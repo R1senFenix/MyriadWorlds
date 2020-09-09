@@ -1,6 +1,7 @@
 import React from "react";
 import "./galaxybutton.css";
 import { NavLink } from "react-router-dom";
+import pic from "./images/sun-flare.webp";
 
 
 
@@ -25,11 +26,12 @@ const galaxyList = [
 
 function GalaxyButton(props) {
     const galaxyMap = galaxyList.map((galaxyList) => {
-        return (<div>
+        return (<div className="galaxy-button">
             <NavLink to={galaxyList.path}>
                 <span className="hover-text" title={galaxyList.hoverText}>
-                    <div className="galaxy-button ">
-                        <div className="button-text">{galaxyList.buttontitle}</div>
+                    <div >
+                        <img className="galaxy-img" src={pic} alt="" />
+                        <div className="gal-button-text">{galaxyList.buttontitle}</div>
                     </div>
                 </span><br />
             </NavLink>

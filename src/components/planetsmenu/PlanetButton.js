@@ -13,7 +13,7 @@ function PlanetButton(props) {
                 <span className="hover-text" title={planetList.hoverText}>
                     <div >
                         <img className="planet-img" src={pic} alt="" />
-                        <div className="button-text">{planetList.buttontitle}</div>
+                        <div className="planet-button-text">{planetList.buttontitle}</div>
                     </div>
                 </span><br />
             </NavLink>
