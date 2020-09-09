@@ -5,7 +5,10 @@ import FooterBar from './components/Footer'
 import GalaxyButton from './components/galaxybuttons/GalaxyButton';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Test from "./components/test"
+import Test from "./components/test";
+import CreateAll from "./components/CreateAll.js";
+import PlayAll from "./components/PlayAll";
+import Community from "./components/Community";
 
 
 function App() {
@@ -20,7 +23,7 @@ function App() {
               <GalaxyButton />
             </Route>
             <Route exact path="/create-all">
-              <Test />
+              <CreateAll />
             </Route>
             <Route exact path="/play-all">
               <Test />

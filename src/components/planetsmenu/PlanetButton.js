@@ -2,15 +2,17 @@ import React from "react";
 import "./planetbutton.css";
 import planetList from "./planetList"
 import { NavLink } from "react-router-dom";
+import pic from "./images/sun-flare.webp";
 
 
 
 function PlanetButton(props) {
     const planetMap = planetList.map((planetList) => {
-        return (<div>
-            <NavLink>
+        return (<div className="planet-button">
+            <NavLink to={planetList.path}>
                 <span className="hover-text" title={planetList.hoverText}>
-                    <div className="galaxy-button ">
+                    <div >
+                        <img className="planet-img" src={pic} alt="" />
                         <div className="button-text">{planetList.buttontitle}</div>
                     </div>
                 </span><br />
@@ -20,7 +22,7 @@ function PlanetButton(props) {
     }
     )
 
-    return (<div className="planet-select flex-container">
+    return (<div className="flex-container">
 
         {planetMap}
     </div>)
