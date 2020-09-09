@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  background-image: url("../images/grey-rugged.jpeg");
+  background-image: url("/images/grey-rugged.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -13,7 +13,7 @@ header {
   display: inline-block;
   border: 2px solid grey;
   margin: auto;
-  background-image: url("../images/starry-background.jpg");
+  background-image: url("/images/starry-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -32,7 +32,7 @@ header {
 }
 
 .text-container {
-  background-image: url("../images/light-grey-rugged.jpg");
+  background-image: url("/images/light-grey-rugged.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
