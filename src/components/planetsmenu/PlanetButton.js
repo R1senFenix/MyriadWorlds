@@ -2,7 +2,7 @@ import React from "react";
 import "./planetbutton.css";
 import planetList from "./planetList"
 import { NavLink } from "react-router-dom";
-import pic from "./images/sun-flare.webp";
+import pic from "./images/mercury_story_.jpg";
 
 
 

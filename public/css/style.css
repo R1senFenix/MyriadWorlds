@@ -3,6 +3,8 @@ body {
   background-image: url("/images/grey-rugged.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  margin-bottom: 100px;
 }
 
 header {
@@ -17,13 +19,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/*
-#logo {
-  float: left;
-}
-.signIn {
-  float: right;
-}*/
+
 .container {
   width: 90%;
   border: 2px solid brown;
